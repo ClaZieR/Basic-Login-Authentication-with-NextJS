@@ -25,9 +25,9 @@ export default function Login() {
       const httpcode=response.data.httpCode
       if(httpcode==200){
         dispach({type:'login'})
-        router.push('/dashboard')
-        
-        
+        if(login){
+          router.push('/dashboard')
+        }
         
         
       }
