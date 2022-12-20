@@ -1,26 +1,53 @@
-html,
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    background-color: black;
   }
-  body {
+
+#Maindiv{
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-right: 33%;
+    margin-left: 33%;
+    border: solid 1px #BCA153 ;
+    
+  }
+  
+  hr.Solid{
+    border: solid #BCA153 1px;
+  }
+  
+  #Subdiv1{
     color: white;
-    background: black;
+    margin: 10px 10px 0px 10px;
   }
-}
+  
+  #Subdiv2{
+    color: white;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .Lbltxt{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+  }
+  
+  
+  #Btn{
+    margin-top: 20px;
+    background: transparent;
+    color: #BCA153;
+    border-color: #BCA153;
+  }
+  
+  h1{
+    color: white;
+    text-align: center;
+  }
